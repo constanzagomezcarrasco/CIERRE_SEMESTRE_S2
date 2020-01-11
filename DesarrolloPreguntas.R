@@ -1,6 +1,5 @@
 #Linea de comando
-ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE)
-
+ejemplos=sample(c("positivo","negativo","neutros"),100,replace=TRUE)
 
 ##EJERCICIO 1##
 
@@ -23,12 +22,12 @@ for (i in 1:length(ejemplos)){
 }
 
 #Contando cantidad de elementos.
-TotalDeElementos<-negativos+positivos+neutros (arreglar)
+TotalDeElementos<-negativos+positivos+neutros
 
 ##EJERCICIO 2##
 
 set.seed(10)
-ejemplos = sample(c("positivo","negativo","neutros"), 10, replace = TRUE)
+ejemplos=sample(c("positivo","negativo","neutros"),10,replace=TRUE)
 
 ##EJERCICIO 3##
 
@@ -51,9 +50,4 @@ for (i in 1:length(Cartas)){
         Cuenta<-Cuenta+0
       }
 }
-
-##EJERCICIO 6##
-
-
-
 
